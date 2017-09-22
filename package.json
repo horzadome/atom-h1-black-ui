@@ -1,18 +1,18 @@
 {
-  "name": "one-dark-ui",
+  "name": "h1-black-ui",
   "theme": "ui",
-  "version": "1.10.8",
-  "description": "Atom One dark UI theme",
+  "version": "0.0.0",
+  "description": "Black backgrounds with colorful syntax",
   "keywords": [
     "dark",
-    "adaptive",
+    "black",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/one-dark-ui",
+  "repository": "https://github.com/MarcosBessega/Glacier-Green-ui.git",
   "main": "lib/main",
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "devDependencies": {
     "coffeelint": "^1.9.7"
@@ -20,34 +20,25 @@
   "configSchema": {
     "fontSize": {
       "title": "Font Size",
-      "description": "Change the UI font size. Needs to be between 8 and 20. In Auto mode, the Font Size will automatically change based on the window size.",
+      "description": "Atom UI forked for @berlouz glacier-dark-ui (https://atom.io/themes/glacier-dark-ui)",
       "type": [
         "integer",
         "string"
       ],
       "minimum": 8,
       "maximum": 20,
-      "default": "Auto",
-      "order": 1
+      "default": "Auto"
     },
-    "tabSizing": {
-      "title": "Tab Sizing",
-      "description": "In Even mode all tabs will be the same size. Great for quickly closing many tabs. In Maximum mode the tabs will expand to take up the full width. In Minimum mode the tabs will only take as little space as needed and also show longer file names.",
+    "layoutMode": {
+      "title": "Layout Mode",
+      "description": "In Auto mode, the UI will automatically adapt based on the window size.",
       "type": "string",
-      "default": "Even",
+      "default": "Auto",
       "enum": [
-        "Even",
-        "Maximum",
-        "Minimum"
-      ],
-      "order": 2
-    },
-    "hideDockButtons": {
-      "title": "Hide dock toggle buttons",
-      "description": "Note: When hiding the toggle buttons, opening a dock needs to be done by using the keyboard or other alternatives.",
-      "type": "boolean",
-      "default": "false",
-      "order": 3
+        "Compact",
+        "Auto",
+        "Spacious"
+      ]
     }
   }
 }
