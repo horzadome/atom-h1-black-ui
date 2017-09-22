@@ -1,4 +1,4 @@
-## One Dark UI theme [![Build Status](https://travis-ci.org/atom/one-dark-ui.svg?branch=master)](https://travis-ci.org/atom/one-dark-ui)
+## One Dark UI theme [![Build Status](https://travis-ci.org/atom/h1-black-ui.svg?branch=master)](https://travis-ci.org/atom/h1-black-ui)
 
 A dark UI theme that adapts to most syntax themes.
 
@@ -9,7 +9,13 @@ A dark UI theme that adapts to most syntax themes.
 
 ### Install
 
-This theme comes bundled with Atom and can be activated by going to the __Settings > Themes__ section and selecting "One Dark" from the __UI Themes__ drop-down menu.
+```
+apm install h1-black-ui
+```
+
+or go to __Settings > Install__ and search for `h1-black-ui`.
+
+After installing, select "H1 Black" from the Settings > Themes > UI Themes drop-down menu.
 
 
 ### Settings
@@ -28,7 +34,7 @@ To make changes, go to `Settings > Themes > One Dark UI > Settings` or the cog i
 It's also possible to resize only certain areas by adding the following to your `styles.less` (Use DevTools to find the right selectors):
 
 ```css
-.theme-one-dark-ui {
+.theme-h1-black-ui {
   .tab-bar { font-size: 18px; }
   .tree-view { font-size: 14px; }
   .status-bar { font-size: 12px; }
