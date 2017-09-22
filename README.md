@@ -1,8 +1,8 @@
-## One Dark UI theme [![Build Status](https://travis-ci.org/atom/h1-black-ui.svg?branch=master)](https://travis-ci.org/atom/h1-black-ui)
+## H1 Black UI theme for Atom editor
 
 A dark UI theme that adapts to most syntax themes.
 
-![One dark UI](https://cloud.githubusercontent.com/assets/378023/26246818/08255b76-3cd6-11e7-9f6d-6ae3e16a89a9.png)
+![H1 Black UI](https://horzadome.github.io/atom-h1-black-ui/h1-black-ui-screenshot.png)
 
 > The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
 
