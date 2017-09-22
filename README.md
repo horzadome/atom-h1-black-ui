@@ -1,21 +1,22 @@
 ## H1 Black UI theme for Atom editor
 
-A dark UI theme that adapts to most syntax themes.
+A black UI theme that adapts to most syntax themes.
+
+There is also a matching [H1 Black Syntax theme](https://github.com/horzadome/atom-h1-black-syntax).
 
 ![H1 Black UI](https://horzadome.github.io/atom-h1-black-ui/h1-black-ui-screenshot.png)
 
-> The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
-
-
 ### Install
 
-```
+- Clone this repo or download as zip and put it in your .atom/packages directory.
+
+<!-- ```
 apm install h1-black-ui
 ```
 
-or go to __Settings > Install__ and search for `h1-black-ui`.
+or go to __Settings > Install__ and search for `h1-black-ui`. -->
 
-After installing, select "H1 Black" from the Settings > Themes > UI Themes drop-down menu.
+- After installing, select "H1 Black" from the Settings > Themes > UI Themes drop-down menu.
 
 
 ### Settings
@@ -27,6 +28,14 @@ In the theme settings you can:
 - Hide the  __dock buttons__.
 
 To make changes, go to `Settings > Themes > One Dark UI > Settings` or the cog icon next to the theme picker.
+
+### Special thanks
+> H1 Black is based on [One Dark UI](https://atom.io/themes/one-dark-ui) theme
+
+> The font used in the screenshot is [SauceCodePro Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro).
+> In case you haven't tried [Nerd Fonts](https://nerdfonts.com/) yet, you [definitely should](https://github.com/ryanoasis/nerd-fonts).
+
+
 
 
 ### Customize
