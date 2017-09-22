@@ -2,17 +2,17 @@
   "name": "h1-black-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "Black backgrounds with colorful syntax",
+  "description": "Black theme with greenish syntax highlighting",
   "keywords": [
     "dark",
-    "black",
+    "adaptive",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/MarcosBessega/Glacier-Green-ui.git",
+  "repository": "https://github.com/horzadome/atom-h1-black-ui",
   "main": "lib/main",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">0.40.0"
   },
   "devDependencies": {
     "coffeelint": "^1.9.7"
@@ -20,25 +20,34 @@
   "configSchema": {
     "fontSize": {
       "title": "Font Size",
-      "description": "Atom UI forked for @berlouz glacier-dark-ui (https://atom.io/themes/glacier-dark-ui)",
+      "description": "Change the UI font size. Needs to be between 8 and 20. In Auto mode, the Font Size will automatically change based on the window size.",
       "type": [
         "integer",
         "string"
       ],
       "minimum": 8,
       "maximum": 20,
-      "default": "Auto"
-    },
-    "layoutMode": {
-      "title": "Layout Mode",
-      "description": "In Auto mode, the UI will automatically adapt based on the window size.",
-      "type": "string",
       "default": "Auto",
+      "order": 1
+    },
+    "tabSizing": {
+      "title": "Tab Sizing",
+      "description": "In Even mode all tabs will be the same size. Great for quickly closing many tabs. In Maximum mode the tabs will expand to take up the full width. In Minimum mode the tabs will only take as little space as needed and also show longer file names.",
+      "type": "string",
+      "default": "Even",
       "enum": [
-        "Compact",
-        "Auto",
-        "Spacious"
-      ]
+        "Even",
+        "Maximum",
+        "Minimum"
+      ],
+      "order": 2
+    },
+    "hideDockButtons": {
+      "title": "Hide dock toggle buttons",
+      "description": "Note: When hiding the toggle buttons, opening a dock needs to be done by using the keyboard or other alternatives.",
+      "type": "boolean",
+      "default": "false",
+      "order": 3
     }
   }
 }
